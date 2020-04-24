@@ -1,6 +1,8 @@
-package az.khayalfarzi.java8.consumer.entity;
+package az.khayalfarzi.java8.biConsumer.entity;
 
 import lombok.*;
+
+import java.util.List;
 
 @Getter
 @Setter
@@ -20,6 +22,8 @@ public class Person {
 
     private double salary;
 
+    private List<String> hobbies;
+
     @Override
     public String toString() {
         return "Person{" +
@@ -28,6 +32,7 @@ public class Person {
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
                 ", salary=" + salary +
+                ", hobbies=" + hobbies +
                 '}';
     }
 }
