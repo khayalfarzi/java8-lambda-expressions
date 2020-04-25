@@ -1,7 +1,7 @@
 package az.khayalfarzi.java8.biConsumer;
 
-import az.khayalfarzi.java8.biConsumer.entity.Person;
-import az.khayalfarzi.java8.biConsumer.repository.PersonRepo;
+import az.khayalfarzi.java8.locale.entity.Person;
+import az.khayalfarzi.java8.locale.repository.PersonRepo;
 
 import java.util.List;
 import java.util.function.BiConsumer;

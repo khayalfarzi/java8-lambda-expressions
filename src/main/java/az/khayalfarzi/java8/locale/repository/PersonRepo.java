@@ -1,6 +1,6 @@
-package az.khayalfarzi.java8.biConsumer.repository;
+package az.khayalfarzi.java8.locale.repository;
 
-import az.khayalfarzi.java8.biConsumer.entity.Person;
+import az.khayalfarzi.java8.locale.entity.Person;
 
 import java.util.Arrays;
 import java.util.List;

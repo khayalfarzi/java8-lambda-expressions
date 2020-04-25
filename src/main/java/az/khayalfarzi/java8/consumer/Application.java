@@ -1,7 +1,7 @@
 package az.khayalfarzi.java8.consumer;
 
-import az.khayalfarzi.java8.consumer.entity.Person;
-import az.khayalfarzi.java8.consumer.repository.PersonRepo;
+import az.khayalfarzi.java8.locale.entity.Person;
+import az.khayalfarzi.java8.locale.repository.PersonRepo;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -31,9 +31,9 @@ public class Application {
 
     public void run() {
 
-//        p1.accept(PersonRepo.getPerson());
-//        p1.andThen(p2).accept(PersonRepo.getPerson());
-//        getAllNameAndAge();
-//        getAllWithCondition();
+        p1.accept(PersonRepo.getPerson());
+        p1.andThen(p2).accept(PersonRepo.getPerson());
+        getAllNameAndAge();
+        getAllWithCondition();
     }
 }

@@ -1,4 +1,4 @@
-package az.khayalfarzi.java8.biConsumer.entity;
+package az.khayalfarzi.java8.locale.entity;
 
 import lombok.*;
 
