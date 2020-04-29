@@ -9,14 +9,14 @@ public class PersonRepo {
 
     public static List<Person> getAll() {
         return Arrays.asList(
-                Person.builder().id(1).name("aaa").age(11).gender("Male").salary(111.11).hobbies(Arrays.asList("a", "b", "c", "d")).build(),
-                Person.builder().id(2).name("bbb").age(22).gender("Female").salary(222.22).hobbies(Arrays.asList("d", "b", "c", "d")).build(),
-                Person.builder().id(3).name("ccc").age(33).gender("Male").salary(333.33).hobbies(Arrays.asList("c", "b", "c", "d")).build(),
-                Person.builder().id(4).name("ddd").age(44).gender("Male").salary(444.44).hobbies(Arrays.asList("q", "b", "c", "d")).build(),
-                Person.builder().id(5).name("eee").age(55).gender("Male").salary(555.55).hobbies(Arrays.asList("w", "b", "c", "d")).build(),
-                Person.builder().id(6).name("fff").age(66).gender("Female").salary(666.66).hobbies(Arrays.asList("l", "b", "c", "d")).build(),
-                Person.builder().id(7).name("kkk").age(77).gender("Female").salary(777.77).hobbies(Arrays.asList("a", "h", "c", "d")).build(),
-                Person.builder().id(8).name("lll").age(88).gender("Male").salary(888.88).hobbies(Arrays.asList("k", "t", "c", "d")).build()
+                Person.builder().id(1).name("Jim").age(11).gender("Male").salary(212.11).hobbies(Arrays.asList("Football", "Swimming", "Chess", "Tennis")).build(),
+                Person.builder().id(2).name("John").age(22).gender("Female").salary(1221.22).hobbies(Arrays.asList("Volleyball", "Football", "Tennis", "Bowling")).build(),
+                Person.builder().id(3).name("Max").age(33).gender("Male").salary(664.33).hobbies(Arrays.asList("Football", "Tennis", "Volleyball", "Swimming")).build(),
+                Person.builder().id(4).name("Alan").age(44).gender("Male").salary(444.44).hobbies(Arrays.asList("Bowling", "Tennis", "Football", "Fishing")).build(),
+                Person.builder().id(5).name("Adam").age(55).gender("Male").salary(999.55).hobbies(Arrays.asList("Fishing", "Bowling", "Tennis", "Chess")).build(),
+                Person.builder().id(6).name("Alexei").age(66).gender("Female").salary(666.66).hobbies(Arrays.asList("Football", "Tennis", "Fishing", "Swimming")).build(),
+                Person.builder().id(7).name("Sun").age(77).gender("Female").salary(777.77).hobbies(Arrays.asList("Volleyball", "Bowling", "Football", "Chess")).build(),
+                Person.builder().id(8).name("Daniel").age(88).gender("Male").salary(888.88).hobbies(Arrays.asList("Fishing", "Swimming", "Volleyball", "Tennis")).build()
         );
     }
 
