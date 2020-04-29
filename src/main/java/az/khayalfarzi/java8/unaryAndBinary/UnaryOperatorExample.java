@@ -2,7 +2,7 @@ package az.khayalfarzi.java8.unaryAndBinary;
 
 import java.util.function.UnaryOperator;
 
-public class UnaryAndBinaryExample {
+public class UnaryOperatorExample {
 
     static UnaryOperator<Integer> unaryOperator = number -> number * 5;
 
