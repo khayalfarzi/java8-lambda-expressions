@@ -16,7 +16,8 @@ public class PersonRepo {
                 Person.builder().id(5).name("Adam").age(55).gender("Male").salary(999.55).hobbies(Arrays.asList("Fishing", "Bowling", "Tennis", "Chess")).build(),
                 Person.builder().id(6).name("Alexei").age(66).gender("Female").salary(666.66).hobbies(Arrays.asList("Football", "Tennis", "Fishing", "Swimming")).build(),
                 Person.builder().id(7).name("Sun").age(77).gender("Female").salary(777.77).hobbies(Arrays.asList("Volleyball", "Bowling", "Football", "Chess")).build(),
-                Person.builder().id(8).name("Daniel").age(88).gender("Male").salary(888.88).hobbies(Arrays.asList("Fishing", "Swimming", "Volleyball", "Tennis")).build()
+                Person.builder().id(8).name("Daniel").age(88).gender("Male").salary(888.88).hobbies(Arrays.asList("Fishing", "Swimming", "Volleyball", "Tennis")).build(),
+                Person.builder().id(9).name("Angel").age(88).gender("Female").salary(888.88).hobbies(Arrays.asList("Fishing", "Swimming", "Volleyball", "Tennis")).build()
         );
     }
 
