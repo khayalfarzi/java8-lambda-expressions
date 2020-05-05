@@ -4,6 +4,7 @@ import az.khayalfarzi.java8.locale.entity.Person;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class PersonRepo {
 
@@ -22,6 +23,10 @@ public class PersonRepo {
     }
 
     public static Person getPerson() {
-        return Person.builder().id(1).name("aaa").age(11).gender("Male").salary(111.11).build();
+        return Person.builder().id(1).name("Jim").age(11).gender("Male").salary(111.11).build();
+    }
+
+    public static Optional<Person> getPersonWithOptional() {
+        return Optional.of(getPerson());
     }
 }
